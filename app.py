@@ -94,13 +94,13 @@ with st.sidebar:
         ,unsafe_allow_html=True,)
 
 #For directly downloading the resume on to local.
-        with open("./images/CV..pdf", "rb") as file: 
-            st.download_button(
-            label="Download X",
-            data=file,
-            file_name='',
-            mime='text/pdf',
-            )
+        # with open("./images/CV..pdf", "rb") as file: 
+        #     st.download_button(
+        #     label="Download X",
+        #     data=file,
+        #     file_name='',
+        #     mime='text/pdf',
+        #     )
         st.subheader("Visit My Portfolio")
         st.markdown(
             """
