@@ -94,7 +94,7 @@ with st.sidebar:
         ,unsafe_allow_html=True,)
 
 #For directly downloading the resume on to local.
-        with open("./images/PRAGYABISHERWAL_RESUME..pdf", "rb") as file: 
+        with open("./images/CV..pdf", "rb") as file: 
             st.download_button(
             label="Download X",
             data=file,
